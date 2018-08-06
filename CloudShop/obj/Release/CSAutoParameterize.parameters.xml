@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=march-db-server1.database.windows.net;initial catalog=july-demo-db;Uid=hryadava;Password=sqllogin#1;MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\hryadava\\Documents\\Migrating\ to\ Azure\\Creating\ Apps\ -\ Scalable\ -\ July\ 13th\\4-Redis\ Cache\\CloudShop\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="AdventureWorksEntities-Web.config Connection String" description="AdventureWorksEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.AdventureWorks.csdl|res://*/Models.AdventureWorks.ssdl|res://*/Models.AdventureWorks.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=march-db-server1.database.windows.net;initial catalog=july-demo-db;Uid=hryadava;Password=sqllogin#1;multipleactiveresultsets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\hryadava\\Documents\\Migrating\ to\ Azure\\Creating\ Apps\ -\ Scalable\ -\ July\ 13th\\4-Redis\ Cache\\CloudShop\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AdventureWorksEntities']/@connectionString" />
+  </parameter>
+  <parameter name="RedisConnection-Web.config Connection String" description="RedisConnection Connection String used in web.config by the application to access the database." defaultValue="july-demo.redis.cache.windows.net:6380,password=eVgNAv+ZaVBIOsy0tIobl8yvGhpi7AZtUXTCxuqZRnQ=,ssl=True,abortConnect=False" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\hryadava\\Documents\\Migrating\ to\ Azure\\Creating\ Apps\ -\ Scalable\ -\ July\ 13th\\4-Redis\ Cache\\CloudShop\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='RedisConnection']/@connectionString" />
+  </parameter>
+</parameters>
